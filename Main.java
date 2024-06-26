@@ -107,7 +107,7 @@ public class Main
 		card += String.format("║%-25s%-15s%-30s║%n", "", LABEL_EXPIRE_DATE, expireDate);
 
 		card += String.format("║%-25s%-45s║%n", ASCII_CREDIT, LABEL_REENTRY_DISCLAIMER);
-		card += String.format("╚══════════════════════════════════════════════════════════════════════╝");
+		card += "╚══════════════════════════════════════════════════════════════════════╝";
 
     return card;
   }
