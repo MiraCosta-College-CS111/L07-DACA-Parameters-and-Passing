@@ -1,0 +1,7 @@
+{
+  "java.server.launchMode": "Standard",
+  "java.project.referencedLibraries": [
+    "checkstyle-10.17.0-all.jar",
+    "junit-platform-console-standalone-1.11.0-M2.jar"
+  ]
+}
