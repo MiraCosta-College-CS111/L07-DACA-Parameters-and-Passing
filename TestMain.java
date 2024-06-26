@@ -68,15 +68,15 @@ public class TestMain {
                     ║                         Surname                                      ║
                     ║                         CHAPETON-LAMAS                               ║
                     ║    .----.    .----.     Given Name                                   ║
-                    ║   (  --  \\  /  --  )    NERY                                        ║
+                    ║   (  --  \\  /  --  )    NERY                                         ║
                     ║          |  |           USCIS#         Category       Card#          ║
-                    ║         _/  \\_          012-004-789    C09            SRC9876543210 ║
+                    ║         _/  \\_          012-004-789    C09            SRC9876543210  ║
                     ║        (_    _)         Country of Birth                             ║
                     ║     ,    `--`    ,      Guatemala                                    ║
-                    ║     \\'-.______.-'/      Terms and Conditions                        ║
-                    ║      \\          /       None                                        ║
+                    ║     \\'-.______.-'/      Terms and Conditions                         ║
+                    ║      \\          /       None                                         ║
                     ║       '.--..--.'        Date of Birth  Sex                           ║
-                    ║         `""\"""`         01 JAN 1970    M                            ║
+                    ║         `""\"""`         01 JAN 1970    M                             ║
                     ║                         Valid From:    02/02/2020                    ║
                     ║                         Card Expires:  02/02/2022                    ║
                     ║   ascii art by: jgs     NOT VALID FOR REENTRY TO U.S.                ║
