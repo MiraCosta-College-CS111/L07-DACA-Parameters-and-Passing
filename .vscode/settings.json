@@ -1,5 +1,7 @@
 {
   "java.server.launchMode": "Standard",
+  "java.compile.nullAnalysis.mode": "disabled",
+  "redhat.telemetry.enabled": false,
   "java.project.referencedLibraries": [
     ".github/test/checkstyle-10.17.0-all.jar",
     ".github/test/junit-platform-console-standalone-1.11.0-M2.jar"
