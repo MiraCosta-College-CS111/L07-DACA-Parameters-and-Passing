@@ -61,26 +61,26 @@ public class TestMain {
             );
 
             // Define the expected card string
-            String expectedCard = """
-                    ╔══════════════════════════════════════════════════════════════════════╗
-                    ║           UNITED STATES OF AMERICA                                   ║
-                    ║                               EMPLOYMENT AUTHORIZATION CARD          ║
-                    ║                         Surname                                      ║
-                    ║                         CHAPETON-LAMAS                               ║
-                    ║    .----.    .----.     Given Name                                   ║
-                    ║   (  --  \\  /  --  )    NERY                                         ║
-                    ║          |  |           USCIS#         Category       Card#          ║
-                    ║         _/  \\_          012-004-789    C09            SRC9876543210  ║
-                    ║        (_    _)         Country of Birth                             ║
-                    ║     ,    `--`    ,      Guatemala                                    ║
-                    ║     \\'-.______.-'/      Terms and Conditions                         ║
-                    ║      \\          /       None                                         ║
-                    ║       '.--..--.'        Date of Birth  Sex                           ║
-                    ║         `""\"""`         01 JAN 1970    M                             ║
-                    ║                         Valid From:    02/02/2020                    ║
-                    ║                         Card Expires:  02/02/2022                    ║
-                    ║   ascii art by: jgs     NOT VALID FOR REENTRY TO U.S.                ║
-                    ╚══════════════════════════════════════════════════════════════════════╝""";
+            String expectedCard = 
+            "╔══════════════════════════════════════════════════════════════════════╗\n" +
+            "║           UNITED STATES OF AMERICA                                   ║\n" +
+            "║                               EMPLOYMENT AUTHORIZATION CARD          ║\n" +
+            "║                         Surname                                      ║\n" +
+            "║                         CHAPETON-LAMAS                               ║\n" +
+            "║    .----.    .----.     Given Name                                   ║\n" +
+            "║   (  --  \\  /  --  )    NERY                                         ║\n" +
+            "║          |  |           USCIS#         Category       Card#          ║\n" +
+            "║         _/  \\_          012-004-789    C09            SRC9876543210  ║\n" +
+            "║        (_    _)         Country of Birth                             ║\n" +
+            "║     ,    `--`    ,      Guatemala                                    ║\n" +
+            "║     \\'-.______.-'/      Terms and Conditions                         ║\n" +
+            "║      \\          /       None                                         ║\n" +
+            "║       '.--..--.'        Date of Birth  Sex                           ║\n" +
+            "║         `\"\"\"\"\"`         01 JAN 1970    M                             ║\n" +
+            "║                         Valid From:    02/02/2020                    ║\n" +
+            "║                         Card Expires:  02/02/2022                    ║\n" +
+            "║   ascii art by: jgs     NOT VALID FOR REENTRY TO U.S.                ║\n" +
+            "╚══════════════════════════════════════════════════════════════════════╝";
 
             // Assert that the result matches the expected card string
             assertEquals(expectedCard, result);
