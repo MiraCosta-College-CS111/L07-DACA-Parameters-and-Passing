@@ -54,3 +54,4 @@ bin/
 hs_err_pid*
 replay_pid*
 
+!/.github/test/*.class
