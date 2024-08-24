@@ -50,15 +50,18 @@ public class Main
 		termsAndConditions = UtilityBelt.readString("Terms and Conditions: ", 1, 45);
 		sex = UtilityBelt.readChar("Sex: ","MFNX");
 		
-		birthMonth = UtilityBelt.readString("Month of Birth (abbr.): ",3,3);
 		uscisNum1 = UtilityBelt.readInt("uscicNum1: ",0,999);
 		uscisNum2 = UtilityBelt.readInt("uscicNum2: ",0,999);
 		uscisNum3 = UtilityBelt.readInt("uscicNum3: ",0,999);
+
+		birthMonth = UtilityBelt.readString("Month of Birth (abbr.): ",3,3);
 		birthDay = UtilityBelt.readInt("Day of birth: ",1,31);
 		birthYear = UtilityBelt.readInt("Year of birth: ",1000,9999);
+
 		validDay = UtilityBelt.readInt("Day of valid date: ",1,31);
 		validMonth = UtilityBelt.readInt("Month of valid date: ",1,12);
 		validYear = UtilityBelt.readInt("Year of valid date: ",1000,9999);
+
 		expireMonth = UtilityBelt.readInt("Month of expire date: ",1,12);
 		expireDay = UtilityBelt.readInt("Day of expire date: ",1,31);
 		expireYear = UtilityBelt.readInt("Year of expire date: ",1000,9999);
